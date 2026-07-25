@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Images/Favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html"><img src="Images/Logo.png" alt="Coffe" width="130"></a>
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="contact_container">
+        <div class="brand">
+            <h1>Coffe_Paradise</h1>
+            <h2>Premium Coffee Experience</h2>
+            <p>📍 <strong>Location:</strong><br>Tamil Nadu, India</p>
+            <p>📞 <strong>Phone:</strong><br>
+                <a href="tel:+919876543210">+91 98765 43210</a>
+            </p>
+            <p>📧 <strong>Email:</strong><br>
+                <a href="mailto:coffeparadise@gmail.com">coffeparadise@gmail.com</a>
+            </p>
+            <p class="brand_description">
+                We craft rich, authentic coffee experiences with a touch of luxury.
+                Reach out to us and we'll connect with you shortly.
+            </p>
+        </div>
+        <div class="contact_form">
+            <form id="contactForm">
+                <input type="text" placeholder="Your Name" required>
+                <input type="tel" placeholder="Phone Number" required>
+                <input type="email" placeholder="Email Address" required>
+                <textarea rows="4" placeholder="Your Address" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
